@@ -97,18 +97,6 @@
                         <div class="main-field">
                             <input id="customerName" formControlName="name" placeholder="Ваше имя" autocomplete="off" />
                         </div>
-                        <div>
-                            @if (this.orderForm.get('name')?.invalid && (this.orderForm.get('name')?.dirty ||
-                            this.orderForm.get('name')?.touched)) {
-                            <label for="customerName" class="input-error">Заполните имя</label>
-                            }
-                        </div>
-                        <div>
-                            @if (this.orderForm.get('phone')?.invalid && (this.orderForm.get('phone')?.dirty ||
-                            this.orderForm.get('phone')?.touched)) {
-                            <label for="customerName" class="input-error">Заполните телефон</label>
-                            }
-                        </div>
                         <div class="main-field">
                             <input id="customerPhone" formControlName="phone" placeholder="Ваш телефон"
                                 autocomplete="off" inputmode="tel" />
@@ -125,7 +113,19 @@
                             <label for="customerName" class="input-error">Заполните телефон</label>
                             }
                         </div>
-                        
+                        <div>
+                            @if (this.orderForm.get('name')?.invalid && (this.orderForm.get('name')?.dirty ||
+                            this.orderForm.get('name')?.touched)) {
+                            <label for="customerName" class="input-error">Заполните имя</label>
+                            }
+                        </div>
+                        <div>
+                            @if (this.orderForm.get('phone')?.invalid && (this.orderForm.get('phone')?.dirty ||
+                            this.orderForm.get('phone')?.touched)) {
+                            <label for="customerName" class="input-error">Заполните телефон</label>
+                            }
+                        </div>
+
                     </div>
                 </div>
                 <div class="main-block-info-row extra-info">
