@@ -1,0 +1,15 @@
+[1mdiff --cc docs/index.html[m
+[1mindex 4cad48c,b6a5da7..0000000[m
+[1m--- a/docs/index.html[m
+[1m+++ b/docs/index.html[m
+[36m@@@ -11,6 -11,6 +11,10 @@@[m
+  [m
+  <body>[m
+      <app-root></app-root>[m
+[32m++<<<<<<< HEAD[m
+[32m +<script src="main-OCFSWGRY.js" type="module"></script></body>[m
+[32m++=======[m
+[32m+ <script src="main-2OIAMZGG.js" type="module"></script></body>[m
+[32m++>>>>>>> e44ff2ec86623af13bf028a0ab34a015909efb14[m
+  [m
+  </html>[m
